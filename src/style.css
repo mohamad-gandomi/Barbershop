@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.brands .splide__arrow--prev {
+    display: none;
+}
+
+.brands .splide__arrow--next {
+    right: -30px;
+}

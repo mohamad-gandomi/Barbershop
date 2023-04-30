@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
     <title>Webpack App</title>
   </head>
   <body>
@@ -25,9 +28,15 @@
     </button>
 
     <!-- Sidebar -->
-    <aside id="menu" class="fixed top-0 left-0 z-40 w-full xl:w-1/4 h-screen transition-transform duration-300 translate-x-full xl:translate-x-0 bg-black/80 xl:bg-black/20" aria-label="Sidebar">
+    <aside
+      id="menu"
+      class="fixed top-0 left-0 z-40 w-full xl:w-1/4 h-screen transition-transform duration-300 translate-x-full xl:translate-x-0 bg-black/80 xl:bg-black/20"
+      aria-label="Sidebar"
+    >
       <!-- Sidebar Container -->
-      <div class="h-full overflow-y-auto pl-[50px] py-[50px] xl:pl-[20%] xl:py-[20%] flex flex-col justify-between">
+      <div
+        class="h-full overflow-y-auto pl-[50px] py-[50px] xl:pl-[20%] xl:py-[20%] flex flex-col justify-between"
+      >
         <!-- Logo -->
         <a href="/"><img src="images/logo.svg" alt="" /></a>
 
@@ -35,43 +44,73 @@
         <nav>
           <ul class="flex flex-col text-md 2xl:text-xl text-[#A6A6A6]">
             <li class="group active">
-              <a href="#" class="py-3 inline-block group-hover:text-white group-[.active]:text-white">
+              <a
+                href="#"
+                class="py-3 inline-block group-hover:text-white group-[.active]:text-white"
+              >
                 <span
                   class="w-[2px] h-[14px] bg-[#A6A6A6] inline-block group-hover:bg-white group-[.active]:bg-white group-hover:rotate-90 group-[.active]:rotate-90 group-hover:ml-[4px] group-[.active]:ml-[4px]"
                 ></span>
-                <span class="group-hover:ml-[6px] group-[.active]:ml-[6px] group-hover:font-semibold group-[.active]:font-semibold">Welcome</span>
+                <span
+                  class="group-hover:ml-[6px] group-[.active]:ml-[6px] group-hover:font-semibold group-[.active]:font-semibold"
+                  >Welcome</span
+                >
               </a>
             </li>
             <li class="group">
-              <a href="#" class="py-3 inline-block group-hover:text-white group-[.active]:text-white">
+              <a
+                href="#"
+                class="py-3 inline-block group-hover:text-white group-[.active]:text-white"
+              >
                 <span
                   class="w-[2px] h-[14px] bg-[#A6A6A6] inline-block group-hover:bg-white group-[.active]:bg-white group-hover:rotate-90 group-[.active]:rotate-90 group-hover:ml-[4px] group-[.active]:ml-[4px]"
                 ></span>
-                <span class="group-hover:ml-[6px] group-[.active]:ml-[6px] group-hover:font-semibold group-[.active]:font-semibold">Portfolio</span>
+                <span
+                  class="group-hover:ml-[6px] group-[.active]:ml-[6px] group-hover:font-semibold group-[.active]:font-semibold"
+                  >Portfolio</span
+                >
               </a>
             </li>
             <li class="group">
-              <a href="#" class="py-3 inline-block group-hover:text-white group-[.active]:text-white">
+              <a
+                href="#"
+                class="py-3 inline-block group-hover:text-white group-[.active]:text-white"
+              >
                 <span
                   class="w-[2px] h-[14px] bg-[#A6A6A6] inline-block group-hover:bg-white group-[.active]:bg-white group-hover:rotate-90 group-[.active]:rotate-90 group-hover:ml-[4px] group-[.active]:ml-[4px]"
                 ></span>
-                <span class="group-hover:ml-[6px] group-[.active]:ml-[6px] group-hover:font-semibold group-[.active]:font-semibold">Team</span>
+                <span
+                  class="group-hover:ml-[6px] group-[.active]:ml-[6px] group-hover:font-semibold group-[.active]:font-semibold"
+                  >Team</span
+                >
               </a>
             </li>
             <li class="group">
-              <a href="#" class="py-3 inline-block group-hover:text-white group-[.active]:text-white">
+              <a
+                href="#"
+                class="py-3 inline-block group-hover:text-white group-[.active]:text-white"
+              >
                 <span
                   class="w-[2px] h-[14px] bg-[#A6A6A6] inline-block group-hover:bg-white group-[.active]:bg-white group-hover:rotate-90 group-[.active]:rotate-90 group-hover:ml-[4px] group-[.active]:ml-[4px]"
                 ></span>
-                <span class="group-hover:ml-[6px] group-[.active]:ml-[6px] group-hover:font-semibold group-[.active]:font-semibold">Shop</span>
+                <span
+                  class="group-hover:ml-[6px] group-[.active]:ml-[6px] group-hover:font-semibold group-[.active]:font-semibold"
+                  >Shop</span
+                >
               </a>
             </li>
             <li class="group">
-              <a href="#" class="py-3 inline-block group-hover:text-white group-[.active]:text-white">
+              <a
+                href="#"
+                class="py-3 inline-block group-hover:text-white group-[.active]:text-white"
+              >
                 <span
                   class="w-[2px] h-[14px] bg-[#A6A6A6] inline-block group-hover:bg-white group-[.active]:bg-white group-hover:rotate-90 group-[.active]:rotate-90 group-hover:ml-[4px] group-[.active]:ml-[4px]"
                 ></span>
-                <span class="group-hover:ml-[6px] group-[.active]:ml-[6px] group-hover:font-semibold group-[.active]:font-semibold">Contact Us</span>
+                <span
+                  class="group-hover:ml-[6px] group-[.active]:ml-[6px] group-hover:font-semibold group-[.active]:font-semibold"
+                  >Contact Us</span
+                >
               </a>
             </li>
           </ul>
@@ -79,9 +118,16 @@
 
         <!-- Sign up & Login Btns -->
         <div class="text-white text-md 2xl:text-xl">
-          <a href="#" class="border border-white rounded-[5px] py-[12px] px-[35px] font-medium"> Sign Up </a>
+          <a
+            href="#"
+            class="border border-white rounded-[5px] py-[12px] px-[35px] font-medium"
+          >
+            Sign Up
+          </a>
           <a href="#" class="py-[12px] px-[35px] font-mediumnpm"> Log in </a>
-          <span class="block text-xs 2xl:text-sm mt-[16%] font-semibold"> <i></i> Play Video About Us</span>
+          <span class="block text-xs 2xl:text-sm mt-[16%] font-semibold">
+            <i></i> Play Video About Us</span
+          >
         </div>
       </div>
     </aside>
@@ -91,12 +137,23 @@
     <main>
       <!-- WELCOME
       ================================================== -->
-      <div class="xl:flex xl:justify-end h-screen bg-[url('images/hero.webp')] bg-cover bg-center select-none">
-        <div class="xl:w-3/4 flex flex-col items-center justify-center h-screen xl:justify-between text-white text-center xl:text-left p-[5%]">
+      <div
+        class="xl:flex xl:justify-end h-screen bg-[url('images/hero.webp')] bg-cover bg-center select-none"
+      >
+        <div
+          class="xl:w-3/4 flex flex-col items-center justify-center h-screen xl:justify-between text-white text-center xl:text-left p-[5%]"
+        >
           <!-- Socials -->
           <div class="self-end hidden xl:flex">
             <a class="pr-6" href="#"
-              ><svg class="transition opacity-30 hover:opacity-100" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+              ><svg
+                class="transition opacity-30 hover:opacity-100"
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <g>
                   <path
                     d="M10.925 32.617C13.3 34.042 16.15 34.8337 19 34.8337C27.7084 34.8337 34.8334 27.7087 34.8334 19.0003C34.8334 10.292 27.7084 3.16699 19 3.16699C10.2917 3.16699 3.16669 10.292 3.16669 19.0003C3.16669 21.8503 3.95835 24.542 5.22502 26.917L3.60713 33.1396C3.41241 33.8886 4.10561 34.5654 4.84967 34.3528L10.925 32.617Z"
@@ -116,7 +173,14 @@
               </svg>
             </a>
             <a class="pr-6" href="#"
-              ><svg class="transition opacity-30 hover:opacity-100" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+              ><svg
+                class="transition opacity-30 hover:opacity-100"
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <g>
                   <path
                     d="M14.25 34.8337H23.75C31.6667 34.8337 34.8334 31.667 34.8334 23.7503V14.2503C34.8334 6.33366 31.6667 3.16699 23.75 3.16699H14.25C6.33335 3.16699 3.16669 6.33366 3.16669 14.2503V23.7503C3.16669 31.667 6.33335 34.8337 14.25 34.8337Z"
@@ -132,12 +196,25 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
-                  <path d="M27.9239 11.0837H27.9422" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M27.9239 11.0837H27.9422"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
                 </g>
               </svg>
             </a>
             <a class="pr-6" href="#">
-              <svg class="transition opacity-30 hover:opacity-100" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg
+                class="transition opacity-30 hover:opacity-100"
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <g>
                   <path
                     d="M22.1667 14.725V19.3167H26.2833C26.6 19.3167 26.7583 19.6333 26.7583 19.95L26.125 22.9583C26.125 23.1167 25.8083 23.275 25.65 23.275H22.1667V34.8333H17.4167V23.4333H14.725C14.4083 23.4333 14.25 23.275 14.25 22.9583V19.95C14.25 19.6333 14.4083 19.475 14.725 19.475H17.4167V14.25C17.4167 11.5583 19.475 9.5 22.1667 9.5H26.4417C26.7583 9.5 26.9167 9.65833 26.9167 9.975V13.775C26.9167 14.0917 26.7583 14.25 26.4417 14.25H22.6417C22.325 14.25 22.1667 14.4083 22.1667 14.725Z"
@@ -158,7 +235,14 @@
             </a>
             <span class="w-px h-[24px] bg-[#4D4D4D] my-3 mr-6"></span>
             <a class="pr-6" href="#">
-              <svg class="transition opacity-30 hover:opacity-100" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg
+                class="transition opacity-30 hover:opacity-100"
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <g>
                   <path
                     d="M11.875 12.1441V10.6082C11.875 7.04572 14.7408 3.54656 18.3033 3.21406C22.5467 2.80239 26.125 6.14323 26.125 10.3074V12.4924"
@@ -176,8 +260,20 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
-                  <path d="M24.5345 18.9997H24.5487" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M13.4497 18.9997H13.4639" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M24.5345 18.9997H24.5487"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.4497 18.9997H13.4639"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
                 </g>
               </svg>
             </a>
@@ -190,17 +286,32 @@
           </div>
 
           <!-- Booking Button -->
-          <button class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[260px] h-[70px] rounded-[5px] xl:self-end">Booking</button>
+          <button
+            class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[260px] h-[70px] rounded-[5px] xl:self-end"
+          >
+            Booking
+          </button>
         </div>
       </div>
       <!-- PORTFOLIO
       ================================================== -->
-      <div class="xl:flex xl:justify-end h-screen xl:bg-[url('images/portfolio_background.webp')] bg-left bg-no-repeat bg-black select-none">
-        <div class="xl:w-8/12 flex flex-col items-center justify-center h-screen xl:justify-between text-white text-center xl:text-left px-[5%] py-[2%]">
+      <div
+        class="xl:flex xl:justify-end h-screen xl:bg-[url('images/portfolio_background.webp')] bg-left bg-no-repeat bg-black select-none"
+      >
+        <div
+          class="xl:w-8/12 flex flex-col items-center justify-center h-screen xl:justify-between text-white text-center xl:text-left px-[5%] py-[2%]"
+        >
           <!-- Socials -->
           <div class="self-end hidden xl:flex">
             <a class="pr-6" href="#"
-              ><svg class="transition opacity-30 hover:opacity-100" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+              ><svg
+                class="transition opacity-30 hover:opacity-100"
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <g>
                   <path
                     d="M10.925 32.617C13.3 34.042 16.15 34.8337 19 34.8337C27.7084 34.8337 34.8334 27.7087 34.8334 19.0003C34.8334 10.292 27.7084 3.16699 19 3.16699C10.2917 3.16699 3.16669 10.292 3.16669 19.0003C3.16669 21.8503 3.95835 24.542 5.22502 26.917L3.60713 33.1396C3.41241 33.8886 4.10561 34.5654 4.84967 34.3528L10.925 32.617Z"
@@ -220,7 +331,14 @@
               </svg>
             </a>
             <a class="pr-6" href="#"
-              ><svg class="transition opacity-30 hover:opacity-100" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+              ><svg
+                class="transition opacity-30 hover:opacity-100"
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <g>
                   <path
                     d="M14.25 34.8337H23.75C31.6667 34.8337 34.8334 31.667 34.8334 23.7503V14.2503C34.8334 6.33366 31.6667 3.16699 23.75 3.16699H14.25C6.33335 3.16699 3.16669 6.33366 3.16669 14.2503V23.7503C3.16669 31.667 6.33335 34.8337 14.25 34.8337Z"
@@ -236,12 +354,25 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
-                  <path d="M27.9239 11.0837H27.9422" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M27.9239 11.0837H27.9422"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
                 </g>
               </svg>
             </a>
             <a class="pr-6" href="#">
-              <svg class="transition opacity-30 hover:opacity-100" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg
+                class="transition opacity-30 hover:opacity-100"
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <g>
                   <path
                     d="M22.1667 14.725V19.3167H26.2833C26.6 19.3167 26.7583 19.6333 26.7583 19.95L26.125 22.9583C26.125 23.1167 25.8083 23.275 25.65 23.275H22.1667V34.8333H17.4167V23.4333H14.725C14.4083 23.4333 14.25 23.275 14.25 22.9583V19.95C14.25 19.6333 14.4083 19.475 14.725 19.475H17.4167V14.25C17.4167 11.5583 19.475 9.5 22.1667 9.5H26.4417C26.7583 9.5 26.9167 9.65833 26.9167 9.975V13.775C26.9167 14.0917 26.7583 14.25 26.4417 14.25H22.6417C22.325 14.25 22.1667 14.4083 22.1667 14.725Z"
@@ -262,7 +393,14 @@
             </a>
             <span class="w-px h-[24px] bg-[#4D4D4D] my-3 mr-6"></span>
             <a class="pr-6" href="#">
-              <svg class="transition opacity-30 hover:opacity-100" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg
+                class="transition opacity-30 hover:opacity-100"
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <g>
                   <path
                     d="M11.875 12.1441V10.6082C11.875 7.04572 14.7408 3.54656 18.3033 3.21406C22.5467 2.80239 26.125 6.14323 26.125 10.3074V12.4924"
@@ -280,8 +418,20 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
-                  <path d="M24.5345 18.9997H24.5487" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M13.4497 18.9997H13.4639" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M24.5345 18.9997H24.5487"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.4497 18.9997H13.4639"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
                 </g>
               </svg>
             </a>
@@ -289,7 +439,7 @@
 
           <!-- Portfolio Slider -->
           <div class="w-full">
-            <div class="splide">
+            <div class="splide portfolio">
               <div class="splide__track">
                 <ul class="splide__list">
                   <li class="splide__slide">
@@ -322,94 +472,877 @@
           </div>
 
           <!-- Booking Button -->
-          <button class="hidden 2xl:block bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[260px] h-[70px] rounded-[5px] xl:self-end">Booking</button>
+          <button
+            class="hidden 2xl:block bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[260px] h-[70px] rounded-[5px] xl:self-end"
+          >
+            Booking
+          </button>
         </div>
       </div>
       <!-- TEAM
       ================================================== -->
-      <div class="xl:flex xl:justify-end xl:bg-[url('images/team_background.webp')] bg-left bg-no-repeat bg-black select-none">
-        <div class="xl:w-8/12 flex flex-col items-center justify-center xl:justify-between text-white text-center xl:text-left px-[5%] py-[2%]">
+      <div
+        class="xl:flex xl:justify-end xl:bg-[url('images/team_background.webp')] bg-left bg-no-repeat bg-black select-none"
+      >
+        <div
+          class="xl:w-8/12 flex flex-col items-center justify-center xl:justify-between text-white text-center xl:text-left px-[5%] py-[2%]"
+        >
           <!-- Team -->
           <div class="">
-            <div class="grid 2xl:grid-cols-3 2xl:grid-rows-2 grid-cols-1 grid-rows-6 gap-5 justify-items-end">
+            <div
+              class="grid 2xl:grid-cols-3 2xl:grid-rows-2 grid-cols-1 grid-rows-6 gap-5 justify-items-end"
+            >
               <!-- Coworker -->
               <div class="group overflow-hidden relative max-w-[314px]">
                 <img class="w-full" src="images/team01.webp" alt="team01" />
-                <div class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center p-5 translate-y-[218px] group-hover:translate-y-0 transition">
-                  <h2 class="text-[24px] font-semibold mb-2">Emad Poralireza</h2>
-                  <p class="text-[16px] text-[#838383] group-hover:text-[#12FF8D] transition mb-[48px]">Founder and pro barber</p>
-                  <span class="block text-[16px] text-[#12FF8D] mb-[14px]">Click To Book</span>
-                  <svg class="mx-auto mb-[50px]" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13.07 1.42999L6.99999 7.49999L0.929993 1.42999" stroke="#12FF8D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                <div
+                  class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center p-5 translate-y-[218px] group-hover:translate-y-0 transition"
+                >
+                  <h2 class="text-[24px] font-semibold mb-2">
+                    Emad Poralireza
+                  </h2>
+                  <p
+                    class="text-[16px] text-[#838383] group-hover:text-[#12FF8D] transition mb-[48px]"
+                  >
+                    Founder and pro barber
+                  </p>
+                  <span class="block text-[16px] text-[#12FF8D] mb-[14px]"
+                    >Click To Book</span
+                  >
+                  <svg
+                    class="mx-auto mb-[50px]"
+                    width="14"
+                    height="9"
+                    viewBox="0 0 14 9"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.07 1.42999L6.99999 7.49999L0.929993 1.42999"
+                      stroke="#12FF8D"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
                   </svg>
-                  <button class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto">Booking</button>
+                  <button
+                    class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                  >
+                    Booking
+                  </button>
                 </div>
               </div>
 
               <!-- Coworker -->
               <div class="group overflow-hidden relative max-w-[314px]">
                 <img class="w-full" src="images/team02.webp" alt="team02" />
-                <div class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center p-5 translate-y-[218px] group-hover:translate-y-0 transition">
+                <div
+                  class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center p-5 translate-y-[218px] group-hover:translate-y-0 transition"
+                >
                   <h2 class="text-[24px] font-semibold mb-2">Sajad Salimi</h2>
-                  <p class="text-[16px] text-[#838383] group-hover:text-[#12FF8D] transition mb-[48px]">Pro Barber</p>
-                  <span class="block text-[16px] text-[#12FF8D] mb-[14px]">Click To Book</span>
-                  <svg class="mx-auto mb-[50px]" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13.07 1.42999L6.99999 7.49999L0.929993 1.42999" stroke="#12FF8D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                  <p
+                    class="text-[16px] text-[#838383] group-hover:text-[#12FF8D] transition mb-[48px]"
+                  >
+                    Pro Barber
+                  </p>
+                  <span class="block text-[16px] text-[#12FF8D] mb-[14px]"
+                    >Click To Book</span
+                  >
+                  <svg
+                    class="mx-auto mb-[50px]"
+                    width="14"
+                    height="9"
+                    viewBox="0 0 14 9"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.07 1.42999L6.99999 7.49999L0.929993 1.42999"
+                      stroke="#12FF8D"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
                   </svg>
-                  <button class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto">Booking</button>
+                  <button
+                    class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                  >
+                    Booking
+                  </button>
                 </div>
               </div>
               <!-- Coworker -->
               <div class="group overflow-hidden relative max-w-[314px]">
                 <img class="w-full" src="images/team03.webp" alt="team03" />
-                <div class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center p-5 translate-y-[218px] group-hover:translate-y-0 transition">
+                <div
+                  class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center p-5 translate-y-[218px] group-hover:translate-y-0 transition"
+                >
                   <h2 class="text-[24px] font-semibold mb-2">Amir Hosseini</h2>
-                  <p class="text-[16px] text-[#838383] group-hover:text-[#12FF8D] transition mb-[48px]">Pro Barber</p>
-                  <span class="block text-[16px] text-[#12FF8D] mb-[14px]">Click To Book</span>
-                  <svg class="mx-auto mb-[50px]" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13.07 1.42999L6.99999 7.49999L0.929993 1.42999" stroke="#12FF8D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                  <p
+                    class="text-[16px] text-[#838383] group-hover:text-[#12FF8D] transition mb-[48px]"
+                  >
+                    Pro Barber
+                  </p>
+                  <span class="block text-[16px] text-[#12FF8D] mb-[14px]"
+                    >Click To Book</span
+                  >
+                  <svg
+                    class="mx-auto mb-[50px]"
+                    width="14"
+                    height="9"
+                    viewBox="0 0 14 9"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.07 1.42999L6.99999 7.49999L0.929993 1.42999"
+                      stroke="#12FF8D"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
                   </svg>
-                  <button class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto">Booking</button>
+                  <button
+                    class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                  >
+                    Booking
+                  </button>
                 </div>
               </div>
               <!-- Coworker -->
               <div class="group overflow-hidden relative max-w-[314px]">
                 <img class="w-full" src="images/team04.webp" alt="team04" />
-                <div class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center p-5 translate-y-[218px] group-hover:translate-y-0 transition">
+                <div
+                  class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center p-5 translate-y-[218px] group-hover:translate-y-0 transition"
+                >
                   <h2 class="text-[24px] font-semibold mb-2">Saeed Firoozi</h2>
-                  <p class="text-[16px] text-[#838383] group-hover:text-[#12FF8D] transition mb-[48px]">Pro Barber</p>
-                  <span class="block text-[16px] text-[#12FF8D] mb-[14px]">Click To Book</span>
-                  <svg class="mx-auto mb-[50px]" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13.07 1.42999L6.99999 7.49999L0.929993 1.42999" stroke="#12FF8D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                  <p
+                    class="text-[16px] text-[#838383] group-hover:text-[#12FF8D] transition mb-[48px]"
+                  >
+                    Pro Barber
+                  </p>
+                  <span class="block text-[16px] text-[#12FF8D] mb-[14px]"
+                    >Click To Book</span
+                  >
+                  <svg
+                    class="mx-auto mb-[50px]"
+                    width="14"
+                    height="9"
+                    viewBox="0 0 14 9"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.07 1.42999L6.99999 7.49999L0.929993 1.42999"
+                      stroke="#12FF8D"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
                   </svg>
-                  <button class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto">Booking</button>
+                  <button
+                    class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                  >
+                    Booking
+                  </button>
                 </div>
               </div>
               <!-- Coworker -->
               <div class="group overflow-hidden relative max-w-[314px]">
                 <img class="w-full" src="images/team05.webp" alt="team05" />
-                <div class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center p-5 translate-y-[218px] group-hover:translate-y-0 transition">
+                <div
+                  class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center p-5 translate-y-[218px] group-hover:translate-y-0 transition"
+                >
                   <h2 class="text-[24px] font-semibold mb-2">Saman Alipoor</h2>
-                  <p class="text-[16px] text-[#838383] group-hover:text-[#12FF8D] transition mb-[48px]">Pro Barber</p>
-                  <span class="block text-[16px] text-[#12FF8D] mb-[14px]">Click To Book</span>
-                  <svg class="mx-auto mb-[50px]" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13.07 1.42999L6.99999 7.49999L0.929993 1.42999" stroke="#12FF8D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                  <p
+                    class="text-[16px] text-[#838383] group-hover:text-[#12FF8D] transition mb-[48px]"
+                  >
+                    Pro Barber
+                  </p>
+                  <span class="block text-[16px] text-[#12FF8D] mb-[14px]"
+                    >Click To Book</span
+                  >
+                  <svg
+                    class="mx-auto mb-[50px]"
+                    width="14"
+                    height="9"
+                    viewBox="0 0 14 9"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.07 1.42999L6.99999 7.49999L0.929993 1.42999"
+                      stroke="#12FF8D"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
                   </svg>
-                  <button class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto">Booking</button>
+                  <button
+                    class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                  >
+                    Booking
+                  </button>
                 </div>
               </div>
               <!-- Coworker -->
               <div class="group overflow-hidden relative max-w-[314px]">
                 <img class="w-full" src="images/team06.webp" alt="team06" />
-                <div class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center p-5 translate-y-[218px] group-hover:translate-y-0 transition">
+                <div
+                  class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-center p-5 translate-y-[218px] group-hover:translate-y-0 transition"
+                >
                   <h2 class="text-[24px] font-semibold mb-2">Alireza Babai</h2>
-                  <p class="text-[16px] text-[#838383] group-hover:text-[#12FF8D] transition mb-[48px]">Pro Masseur</p>
-                  <span class="block text-[16px] text-[#12FF8D] mb-[14px]">Click To Book</span>
-                  <svg class="mx-auto mb-[50px]" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13.07 1.42999L6.99999 7.49999L0.929993 1.42999" stroke="#12FF8D" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                  <p
+                    class="text-[16px] text-[#838383] group-hover:text-[#12FF8D] transition mb-[48px]"
+                  >
+                    Pro Masseur
+                  </p>
+                  <span class="block text-[16px] text-[#12FF8D] mb-[14px]"
+                    >Click To Book</span
+                  >
+                  <svg
+                    class="mx-auto mb-[50px]"
+                    width="14"
+                    height="9"
+                    viewBox="0 0 14 9"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.07 1.42999L6.99999 7.49999L0.929993 1.42999"
+                      stroke="#12FF8D"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
                   </svg>
-                  <button class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto">Booking</button>
+                  <button
+                    class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                  >
+                    Booking
+                  </button>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SHOP
+      ================================================== -->
+      <div
+        class="xl:flex xl:justify-end xl:bg-[url('images/shop_background.webp')] bg-top-left bg-no-repeat bg-black select-none"
+      >
+        <div
+          class="xl:w-8/12 flex flex-col text-white items-end text-center xl:text-left px-[5%] py-[2%]"
+        >
+          <!-- Socials -->
+          <div class="self-end hidden xl:flex mb-[80px]">
+            <a class="pr-6" href="#"
+              ><svg
+                class="transition opacity-30 hover:opacity-100"
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <path
+                    d="M10.925 32.617C13.3 34.042 16.15 34.8337 19 34.8337C27.7084 34.8337 34.8334 27.7087 34.8334 19.0003C34.8334 10.292 27.7084 3.16699 19 3.16699C10.2917 3.16699 3.16669 10.292 3.16669 19.0003C3.16669 21.8503 3.95835 24.542 5.22502 26.917L3.60713 33.1396C3.41241 33.8886 4.10561 34.5654 4.84967 34.3528L10.925 32.617Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M26.125 23.5101C26.125 23.7666 26.0679 24.0302 25.9466 24.2867C25.8253 24.5432 25.6683 24.7855 25.4614 25.0135C25.1117 25.3982 24.7264 25.6761 24.2911 25.8543C23.863 26.0324 23.3992 26.125 22.8997 26.125C22.1718 26.125 21.394 25.954 20.5734 25.6049C19.7528 25.2557 18.9322 24.7855 18.1187 24.1941C17.2981 23.5956 16.5203 22.933 15.7782 22.1991C15.0433 21.4581 14.3796 20.6815 13.7874 19.8692C13.2022 19.057 12.7313 18.2448 12.3888 17.4396C12.0463 16.6274 11.875 15.8507 11.875 15.1097C11.875 14.6252 11.9606 14.1621 12.1319 13.7346C12.3031 13.3 12.5743 12.901 12.9525 12.5448C13.4092 12.0959 13.9087 11.875 14.4367 11.875C14.6365 11.875 14.8363 11.9178 15.0147 12.0033C15.2002 12.0888 15.3644 12.217 15.4928 12.4022L17.1483 14.7321C17.2767 14.9103 17.3695 15.0741 17.4337 15.2309C17.4979 15.3805 17.5336 15.5301 17.5336 15.6655C17.5336 15.8365 17.4837 16.0075 17.3838 16.1714C17.291 16.3352 17.1554 16.5062 16.9842 16.6772L16.4419 17.2401C16.3634 17.3185 16.3277 17.4111 16.3277 17.5251C16.3277 17.5821 16.3348 17.632 16.3491 17.689C16.3705 17.746 16.3919 17.7887 16.4062 17.8315C16.5346 18.0666 16.7558 18.373 17.0698 18.7435C17.3909 19.114 17.7334 19.4916 18.1045 19.8692C18.4898 20.2469 18.8609 20.596 19.239 20.9166C19.6101 21.2301 19.9169 21.4439 20.1596 21.5721C20.1952 21.5864 20.238 21.6077 20.288 21.6291C20.3451 21.6505 20.4022 21.6576 20.4664 21.6576C20.5877 21.6576 20.6805 21.6149 20.759 21.5365L21.3013 21.0021C21.4797 20.824 21.6509 20.6886 21.815 20.6031C21.9792 20.5034 22.1433 20.4535 22.3217 20.4535C22.4572 20.4535 22.6 20.482 22.7569 20.5461C22.9139 20.6102 23.0781 20.7029 23.2564 20.824L25.6184 22.4984C25.8039 22.6266 25.9323 22.7762 26.0108 22.9544C26.0822 23.1325 26.125 23.3106 26.125 23.5101Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                  />
+                </g>
+              </svg>
+            </a>
+            <a class="pr-6" href="#"
+              ><svg
+                class="transition opacity-30 hover:opacity-100"
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <path
+                    d="M14.25 34.8337H23.75C31.6667 34.8337 34.8334 31.667 34.8334 23.7503V14.2503C34.8334 6.33366 31.6667 3.16699 23.75 3.16699H14.25C6.33335 3.16699 3.16669 6.33366 3.16669 14.2503V23.7503C3.16669 31.667 6.33335 34.8337 14.25 34.8337Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M19 24.5413C22.0606 24.5413 24.5416 22.0603 24.5416 18.9997C24.5416 15.9391 22.0606 13.458 19 13.458C15.9394 13.458 13.4583 15.9391 13.4583 18.9997C13.4583 22.0603 15.9394 24.5413 19 24.5413Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M27.9239 11.0837H27.9422"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+              </svg>
+            </a>
+            <a class="pr-6" href="#">
+              <svg
+                class="transition opacity-30 hover:opacity-100"
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <path
+                    d="M22.1667 14.725V19.3167H26.2833C26.6 19.3167 26.7583 19.6333 26.7583 19.95L26.125 22.9583C26.125 23.1167 25.8083 23.275 25.65 23.275H22.1667V34.8333H17.4167V23.4333H14.725C14.4083 23.4333 14.25 23.275 14.25 22.9583V19.95C14.25 19.6333 14.4083 19.475 14.725 19.475H17.4167V14.25C17.4167 11.5583 19.475 9.5 22.1667 9.5H26.4417C26.7583 9.5 26.9167 9.65833 26.9167 9.975V13.775C26.9167 14.0917 26.7583 14.25 26.4417 14.25H22.6417C22.325 14.25 22.1667 14.4083 22.1667 14.725Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M23.75 34.8337H14.25C6.33335 34.8337 3.16669 31.667 3.16669 23.7503V14.2503C3.16669 6.33366 6.33335 3.16699 14.25 3.16699H23.75C31.6667 3.16699 34.8334 6.33366 34.8334 14.2503V23.7503C34.8334 31.667 31.6667 34.8337 23.75 34.8337Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+              </svg>
+            </a>
+            <span class="w-px h-[24px] bg-[#4D4D4D] my-3 mr-6"></span>
+            <a class="relative" href="#">
+              <svg
+                class="transition"
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <path
+                    d="M11.875 12.1441V10.6082C11.875 7.04572 14.7408 3.54656 18.3033 3.21406C22.5467 2.80239 26.125 6.14323 26.125 10.3074V12.4924"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M14.25 34.8337H23.75C30.115 34.8337 31.255 32.2845 31.5875 29.1812L32.775 19.6812C33.2025 15.8178 32.0941 12.667 25.3333 12.667H12.6666C5.9058 12.667 4.79747 15.8178 5.22497 19.6812L6.41247 29.1812C6.74497 32.2845 7.88497 34.8337 14.25 34.8337Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M24.5345 18.9997H24.5487"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.4497 18.9997H13.4639"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+              </svg>
+              <div
+                class="flex justify-center items-center bg-[#12FF8D] text-black text-[14px] text-center rounded-full w-[20px] h-[20px] absolute bottom-1"
+              >
+                3
+              </div>
+            </a>
+          </div>
+          <!-- Top Bar -->
+          <div class="hidden 2xl:flex justify-end mb-[32px]">
+            <!-- Categories -->
+            <ul class="flex bg-[#1D1D1D] p-[6px] rounded-[5px]">
+              <li class="group active">
+                <a
+                  href=""
+                  class="mr-[6px] text-[#414141] transition flex items-center px-[20px] py-[10px] group-hover:bg-[#060606] group-hover:text-white group-[.active]:bg-[#060606] group-[.active]:text-white rounded-[5px]"
+                >
+                  Spray
+                </a>
+              </li>
+              <li class="group">
+                <a
+                  href=""
+                  class="mr-[6px] text-[#414141] transition flex items-center px-[20px] py-[10px] group-hover:bg-[#060606] group-hover:text-white group-[.active]:bg-[#060606] group-[.active]:text-white rounded-[5px]"
+                >
+                  Brush
+                </a>
+              </li>
+              <li class="group">
+                <a
+                  href=""
+                  class="mr-[6px] text-[#414141] transition flex items-center px-[20px] py-[10px] group-hover:bg-[#060606] group-hover:text-white group-[.active]:bg-[#060606] group-[.active]:text-white rounded-[5px]"
+                >
+                  Hair Cream
+                </a>
+              </li>
+              <li class="group">
+                <a
+                  href=""
+                  class="mr-[6px] text-[#414141] transition flex items-center px-[20px] py-[10px] group-hover:bg-[#060606] group-hover:text-white group-[.active]:bg-[#060606] group-[.active]:text-white rounded-[5px]"
+                >
+                  Brush
+                </a>
+              </li>
+              <li class="group">
+                <a
+                  href=""
+                  class="mr-[6px] text-[#414141] transition flex items-center px-[20px] py-[10px] group-hover:bg-[#060606] group-hover:text-white group-[.active]:bg-[#060606] group-[.active]:text-white rounded-[5px]"
+                >
+                  Prfume
+                </a>
+              </li>
+              <li class="group">
+                <a
+                  href=""
+                  class="mr-[6px] text-[#414141] transition flex items-center px-[20px] py-[10px] group-hover:bg-[#060606] group-hover:text-white group-[.active]:bg-[#060606] group-[.active]:text-white rounded-[5px]"
+                >
+                  Machine
+                </a>
+              </li>
+            </ul>
+
+            <!-- Filters -->
+            <ul class="flex bg-[#1D1D1D] p-[6px] rounded-[5px] ml-[20px]">
+              <li class="group">
+                <a
+                  class="mr-[6px] text-[#414141] transition flex items-center px-[20px] py-[10px] group-hover:bg-[#060606] group-hover:text-white group-[.active]:bg-[#060606] group-[.active]:text-white rounded-[5px]"
+                  href=""
+                >
+                  <span class="mr-1">Low Price</span>
+                  <svg
+                    class="transition stroke-[#414141] group-hover:stroke-white group-[.active]:stroke-white"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.0583 12.0254L9.99998 17.0837L4.94165 12.0254"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10 2.9165V16.9415"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="group active">
+                <a
+                  class="mr-[6px] text-[#414141] transition flex items-center px-[20px] py-[10px] group-hover:bg-[#060606] group-hover:text-white group-[.active]:bg-[#060606] group-[.active]:text-white rounded-[5px]"
+                  href=""
+                >
+                  <span>High Price</span>
+                  <svg
+                    class="transition stroke-[#414141] group-hover:stroke-white group-[.active]:stroke-white"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.0583 7.97484L9.99998 2.9165L4.94165 7.97484"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10 17.0831V3.05811"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Brands -->
+          <section
+            class="splide brands max-w-[925px] mr-[30px] mb-[52px]"
+            aria-label="products brands"
+          >
+            <div class="splide__arrows">
+              <button class="splide__arrow splide__arrow--prev">Prev</button>
+              <button class="absolute splide__arrow--next">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.90997 19.9201L15.43 13.4001C16.2 12.6301 16.2 11.3701 15.43 10.6001L8.90997 4.08008"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="group active splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Nivea
+                  </a>
+                </li>
+                <li class="group splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Axe
+                  </a>
+                </li>
+                <li class="group splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Caspian
+                  </a>
+                </li>
+                <li class="group splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Joob
+                  </a>
+                </li>
+                <li class="group splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Marly
+                  </a>
+                </li>
+                <li class="group splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Brune
+                  </a>
+                </li>
+                <li class="group splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Moser
+                  </a>
+                </li>
+                <li class="group splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Gatsby
+                  </a>
+                </li>
+                <li class="group splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Tuft
+                  </a>
+                </li>
+                <li class="group splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Baby
+                  </a>
+                </li>
+                <li class="group splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Bloom
+                  </a>
+                </li>
+                <li class="group splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Radical
+                  </a>
+                </li>
+                <li class="group splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Nilana
+                  </a>
+                </li>
+                <li class="group splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Zara
+                  </a>
+                </li>
+                <li class="group splide__slide">
+                  <a
+                    class="transition text-[#414141] group-hover:text-white group-[.active]:text-white"
+                    href="#"
+                  >
+                    Buteay
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <!-- Products -->
+          <div class="mx-auto 2xl:mx-0 grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-3 gap-4">
+            <div class="group overflow-hidden relative max-w-[314px]">
+              <img class="w-full" src="images/product01.webp" alt="product01" />
+              <div
+                class="absolute bottom-0 left-0 right-0 bg-black/70 text-white text-center p-5 translate-y-[95px] group-hover:translate-y-0 transition"
+              >
+                <h2 class="text-[20px] font-semibold mb-2">NIVEA Body Spray</h2>
+                <p class="text-[16px] text-[#838383] mb-2 transition">
+                  Fresh Aquatic
+                </p>
+                <span
+                  class="block text-[20px] font-medium text-[#12FF8D] mb-[18px]"
+                >
+                  150,000 T
+                </span>
+                <button
+                  class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                >
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="group overflow-hidden relative max-w-[314px]">
+              <img class="w-full" src="images/product02.webp" alt="product02" />
+              <div
+                class="absolute bottom-0 left-0 right-0 bg-black/70 text-white text-center p-5 translate-y-[95px] group-hover:translate-y-0 transition"
+              >
+                <h2 class="text-[20px] font-semibold mb-2">Joop Cologne</h2>
+                <p class="text-[16px] text-[#838383] mb-2 transition">Men</p>
+                <span
+                  class="block text-[20px] font-medium text-[#12FF8D] mb-[18px]"
+                >
+                  1,400,000 T
+                </span>
+                <button
+                  class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                >
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="group overflow-hidden relative max-w-[314px]">
+              <img class="w-full" src="images/product03.webp" alt="product03" />
+              <div
+                class="absolute bottom-0 left-0 right-0 bg-black/70 text-white text-center p-5 translate-y-[95px] group-hover:translate-y-0 transition"
+              >
+                <h2 class="text-[20px] font-semibold mb-2">Xiaomi Showsee</h2>
+                <p class="text-[16px] text-[#838383] mb-2 transition">
+                  Men F1 F305
+                </p>
+                <span
+                  class="block text-[20px] font-medium text-[#12FF8D] mb-[18px]"
+                >
+                  3,500,000 T
+                </span>
+                <button
+                  class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                >
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="group overflow-hidden relative max-w-[314px]">
+              <img class="w-full" src="images/product04.webp" alt="product04" />
+              <div
+                class="absolute bottom-0 left-0 right-0 bg-black/70 text-white text-center p-5 translate-y-[95px] group-hover:translate-y-0 transition"
+              >
+                <h2 class="text-[20px] font-semibold mb-2">Ghd helios</h2>
+                <p class="text-[16px] text-[#838383] mb-2 transition">Dryer</p>
+                <span
+                  class="block text-[20px] font-medium text-[#12FF8D] mb-[18px]"
+                >
+                  1,900,000 T
+                </span>
+                <button
+                  class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                >
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="group overflow-hidden relative max-w-[314px]">
+              <img class="w-full" src="images/product05.webp" alt="product05" />
+              <div
+                class="absolute bottom-0 left-0 right-0 bg-black/70 text-white text-center p-5 translate-y-[95px] group-hover:translate-y-0 transition"
+              >
+                <h2 class="text-[20px] font-semibold mb-2">Heat Duo 2.5</h2>
+                <p class="text-[16px] text-[#838383] mb-2 transition">
+                  Round Brush
+                </p>
+                <span
+                  class="block text-[20px] font-medium text-[#12FF8D] mb-[18px]"
+                >
+                  350,000 T
+                </span>
+                <button
+                  class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                >
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="group overflow-hidden relative max-w-[314px]">
+              <img class="w-full" src="images/product06.webp" alt="product06" />
+              <div
+                class="absolute bottom-0 left-0 right-0 bg-black/70 text-white text-center p-5 translate-y-[95px] group-hover:translate-y-0 transition"
+              >
+                <h2 class="text-[20px] font-semibold mb-2">Argan Oil</h2>
+                <p class="text-[16px] text-[#838383] mb-2 transition">
+                  Zohour 100%
+                </p>
+                <span
+                  class="block text-[20px] font-medium text-[#12FF8D] mb-[18px]"
+                >
+                  500,000 T
+                </span>
+                <button
+                  class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                >
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="group overflow-hidden relative max-w-[314px]">
+              <img class="w-full" src="images/product07.webp" alt="product07" />
+              <div
+                class="absolute bottom-0 left-0 right-0 bg-black/70 text-white text-center p-5 translate-y-[95px] group-hover:translate-y-0 transition"
+              >
+                <h2 class="text-[20px] font-semibold mb-2">Hair Serum</h2>
+                <p class="text-[16px] text-[#838383] mb-2 transition">
+                  Uv Shield
+                </p>
+                <span
+                  class="block text-[20px] font-medium text-[#12FF8D] mb-[18px]"
+                >
+                  350,000 T
+                </span>
+                <button
+                  class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                >
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="group overflow-hidden relative max-w-[314px]">
+              <img class="w-full" src="images/product08.webp" alt="product08" />
+              <div
+                class="absolute bottom-0 left-0 right-0 bg-black/70 text-white text-center p-5 translate-y-[95px] group-hover:translate-y-0 transition"
+              >
+                <h2 class="text-[20px] font-semibold mb-2">Shampoo Clear</h2>
+                <p class="text-[16px] text-[#838383] mb-2 transition">
+                  Anti Hair Fall
+                </p>
+                <span
+                  class="block text-[20px] font-medium text-[#12FF8D] mb-[18px]"
+                >
+                  230,000 T
+                </span>
+                <button
+                  class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                >
+                  Add To Cart
+                </button>
+              </div>
+            </div>
+
+            <div class="group overflow-hidden relative max-w-[314px]">
+              <img class="w-full" src="images/product09.webp" alt="product09" />
+              <div
+                class="absolute bottom-0 left-0 right-0 bg-black/70 text-white text-center p-5 translate-y-[95px] group-hover:translate-y-0 transition"
+              >
+                <h2 class="text-[20px] font-semibold mb-2">Shaving Foam</h2>
+                <p class="text-[16px] text-[#838383] mb-2 transition">
+                  Nivea For Men
+                </p>
+                <span
+                  class="block text-[20px] font-medium text-[#12FF8D] mb-[18px]"
+                >
+                  430,000 T
+                </span>
+                <button
+                  class="bg-white hover:bg-[#12FF8D] transition text-black text-xl font-medium w-[274px] h-[70px] rounded-[5px] mx-auto"
+                >
+                  Add To Cart
+                </button>
               </div>
             </div>
           </div>
@@ -419,7 +1352,9 @@
 
     <!-- Mobile Bottom Navigation
     ================================================== -->
-    <nav class="z-30 flex justify-around items-center fixed bottom-0 left-0 right-0 text-white text-[12px] py-[15px] bg-[#191917] xl:hidden">
+    <nav
+      class="z-30 flex justify-around items-center fixed bottom-0 left-0 right-0 text-white text-[12px] py-[15px] bg-[#191917] xl:hidden"
+    >
       <a class="group flex flex-col items-center justify-center" href="#">
         <svg
           width="28"
@@ -432,10 +1367,20 @@
             d="M26.1316 21.3857C26.1316 21.8057 26.0383 22.2373 25.8399 22.6573C25.6416 23.0773 25.3849 23.474 25.0466 23.8473C24.4749 24.4773 23.8449 24.9323 23.1333 25.224C22.4333 25.5157 21.6749 25.6673 20.8583 25.6673C19.6683 25.6673 18.3966 25.3873 17.0549 24.8157C15.7133 24.244 14.3716 23.474 13.0416 22.5057C11.6999 21.5257 10.4283 20.4407 9.21492 19.239C8.01325 18.0257 6.92825 16.754 5.95992 15.424C5.00325 14.094 4.23325 12.764 3.67325 11.4457C3.11325 10.1157 2.83325 8.84398 2.83325 7.63065C2.83325 6.83732 2.97325 6.07898 3.25325 5.37898C3.53325 4.66732 3.97659 4.01398 4.59492 3.43065C5.34159 2.69565 6.15825 2.33398 7.02159 2.33398C7.34825 2.33398 7.67492 2.40398 7.96659 2.54398C8.26992 2.68398 8.53825 2.89398 8.74825 3.19732L11.4549 7.01232C11.6649 7.30398 11.8166 7.57232 11.9216 7.82898C12.0266 8.07398 12.0849 8.31898 12.0849 8.54065C12.0849 8.82065 12.0033 9.10065 11.8399 9.36898C11.6883 9.63732 11.4666 9.91732 11.1866 10.1973L10.2999 11.119C10.1716 11.2473 10.1133 11.399 10.1133 11.5857C10.1133 11.679 10.1249 11.7607 10.1483 11.854C10.1833 11.9473 10.2183 12.0173 10.2416 12.0873C10.4516 12.4723 10.8133 12.974 11.3266 13.5807C11.8516 14.1873 12.4116 14.8057 13.0183 15.424C13.6483 16.0423 14.2549 16.614 14.8733 17.139C15.4799 17.6523 15.9816 18.0023 16.3783 18.2123C16.4366 18.2357 16.5066 18.2707 16.5883 18.3057C16.6816 18.3407 16.7749 18.3523 16.8799 18.3523C17.0783 18.3523 17.2299 18.2823 17.3583 18.154L18.2449 17.279C18.5366 16.9873 18.8166 16.7657 19.0849 16.6257C19.3533 16.4623 19.6216 16.3807 19.9133 16.3807C20.1349 16.3807 20.3683 16.4273 20.6249 16.5323C20.8816 16.6373 21.1499 16.789 21.4416 16.9873L25.3033 19.729C25.6066 19.939 25.8166 20.184 25.9449 20.4757C26.0616 20.7673 26.1316 21.059 26.1316 21.3857Z"
             stroke-miterlimit="10"
           />
-          <path d="M22.0832 10.5003C22.0832 9.80033 21.5349 8.72699 20.7182 7.85199C19.9715 7.04699 18.9799 6.41699 17.9999 6.41699" stroke-linecap="round" stroke-linejoin="round" />
-          <path d="M26.1665 10.5007C26.1665 5.98565 22.5149 2.33398 17.9999 2.33398" stroke-linecap="round" stroke-linejoin="round" />
+          <path
+            d="M22.0832 10.5003C22.0832 9.80033 21.5349 8.72699 20.7182 7.85199C19.9715 7.04699 18.9799 6.41699 17.9999 6.41699"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M26.1665 10.5007C26.1665 5.98565 22.5149 2.33398 17.9999 2.33398"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
         </svg>
-        <span class="group-hover:text-[#12FF8D] group-[.active]:text-[#12FF8D]"> Contact Us </span>
+        <span class="group-hover:text-[#12FF8D] group-[.active]:text-[#12FF8D]">
+          Contact Us
+        </span>
       </a>
       <a class="group flex flex-col items-center justify-center" href="#">
         <svg
@@ -458,10 +1403,20 @@
             stroke-linecap="round"
             stroke-linejoin="round"
           />
-          <path d="M18.078 14.0003H18.0885" stroke-linecap="round" stroke-linejoin="round" />
-          <path d="M9.9103 14.0003H9.92078" stroke-linecap="round" stroke-linejoin="round" />
+          <path
+            d="M18.078 14.0003H18.0885"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M9.9103 14.0003H9.92078"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
         </svg>
-        <span class="group-hover:text-[#12FF8D] group-[.active]:text-[#12FF8D]"> Shop </span>
+        <span class="group-hover:text-[#12FF8D] group-[.active]:text-[#12FF8D]">
+          Shop
+        </span>
       </a>
       <a class="group flex flex-col items-center justify-center" href="#">
         <svg
@@ -493,7 +1448,9 @@
             stroke-linejoin="round"
           />
         </svg>
-        <span class="group-hover:text-[#12FF8D] group-[.active]:text-[#12FF8D]"> Team </span>
+        <span class="group-hover:text-[#12FF8D] group-[.active]:text-[#12FF8D]">
+          Team
+        </span>
       </a>
       <a class="group flex flex-col items-center justify-center" href="#">
         <svg
@@ -520,7 +1477,9 @@
             stroke-linejoin="round"
           />
         </svg>
-        <span class="group-hover:text-[#12FF8D] group-[.active]:text-[#12FF8D]"> Portfolio </span>
+        <span class="group-hover:text-[#12FF8D] group-[.active]:text-[#12FF8D]">
+          Portfolio
+        </span>
       </a>
       <a class="group flex flex-col items-center justify-center" href="#">
         <svg
@@ -536,9 +1495,15 @@
             stroke-linecap="round"
             stroke-linejoin="round"
           />
-          <path d="M14.5 20.9886V17.4886" stroke-linecap="round" stroke-linejoin="round" />
+          <path
+            d="M14.5 20.9886V17.4886"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
         </svg>
-        <span class="group-hover:text-[#12FF8D] group-[.active]:text-[#12FF8D]"> Home </span>
+        <span class="group-hover:text-[#12FF8D] group-[.active]:text-[#12FF8D]">
+          Home
+        </span>
       </a>
     </nav>
 
